@@ -1,0 +1,87 @@
+                @import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    background: url(assets/topography.png);
+                    height: 100vh;
+                    width: 100%;
+                    font-size: 16px;
+                    font-family: consolas;
+                }
+                
+                h1,
+                h2,
+                h3 {
+                    padding: 20px 0;
+                    font-family: 'Stint Ultra Expanded', cursive;
+                }
+                
+                h2,
+                h3 {
+                    padding: 20px 0;
+                }
+                
+                h1 {
+                    font-size: 25px;
+                }
+                
+                h2,
+                a {
+                    color: #ff0099;
+                }
+                
+                a.active {
+                    background-color: lightgrey;
+                }
+                
+                p {
+                    text-align: justify;
+                }
+                
+                .links {
+                    margin-right: 10%;
+                    float: right;
+                    /*padding-top: 5px;
+                padding-bottom: 25px;*/
+                    font-size: 25px;
+                }
+                
+                .header {
+                    height: 100px;
+                    width: 100%;
+                    background-color: #333333;
+                    padding-top: 30px;
+                    word-spacing: 10px;
+                }
+                
+                .logo {
+                    float: left;
+                    margin-left: 10%;
+                    height: 90px;
+                    width: 90px;
+                }
+                
+                .header a:hover {
+                    background-color: white;
+                    color: blue;
+                }
+                
+                .interview {
+                    padding-bottom: 20px;
+                }
+                
+                .center,
+                .title {
+                    font-size: 20px;
+                    text-align: center;
+                    padding: 20px;
+                }
+                
+                section {
+                    margin: 10%;
+                    line-height: 1.5
+                }
